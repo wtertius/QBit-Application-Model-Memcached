@@ -1,0 +1,12 @@
+Source: libqbit-application-model-memcached-perl
+Section: perl
+Priority: extra
+Maintainer: Sergei Svistunov <sergei-svistunov@yandex.ru>
+Build-Depends: debhelper (>= 8.0.0), perl, libqbit-perl, libqbit-application-perl, libcache-memcached-perl, libdigest-sha1-perl, libdigest-crc-perl
+Standards-Version: 3.9.4
+
+Package: libqbit-application-model-memcached-perl
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, perl, libqbit-perl, libqbit-application-perl, libcache-memcached-perl, libdigest-sha1-perl, libdigest-crc-perl
+Description: Model for working with memcached.
+ Model for working with memcached.
