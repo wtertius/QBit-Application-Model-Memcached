@@ -1,0 +1,6 @@
+libqbit-application-model-memcached-perl (0.001) raring; urgency=low
+
+  * Initial commit
+
+ -- Sergei Svistunov <sergei-svistunov@yandex.ru>  Mon, 16 Sep 2013 16:53:47 +0400
+
